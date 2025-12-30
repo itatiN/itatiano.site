@@ -1,0 +1,110 @@
+resume:
+  personal:
+    name: Itatiano Niquini
+    location: Belo Horizonte, Minas Gerais, Brazil
+    email: itaticontato@gmail.com
+    phone: "+553198230-0840"
+    links:
+      github: https://github.com/itatiN
+      linkedin: https://linkedin.com/in/itatianofilho
+
+  professional_summary: >
+    Software Engineer with over three years of professional experience and a
+    strong background in backend, cloud, and distributed systems. Experienced
+    in building scalable and reliable applications using Java (Spring Boot),
+    Node.js (NestJS), TypeScript, and modern cloud-native tooling. Comfortable
+    collaborating with cross-functional teams, producing technical
+    documentation, and integrating AI-powered solutions.
+
+  skills:
+    ai_and_databases:
+      - Prompt Engineering
+      - LLM Integration (GPT, Gemini)
+      - Document Chunking
+      - PostgreSQL
+      - MySQL
+
+    cloud_and_devops:
+      - Docker
+      - Kubernetes
+      - CI/CD (GitHub Actions)
+      - AWS (ECS, S3, CloudWatch)
+      - Azure Pipelines
+      - Obeservability (Datadog, Grafana)
+
+    languages_and_frameworks:
+      - Java (Spring Boot)
+      - Node.js (NestJS, Express)
+      - TypeScript
+      - JavaScript
+      - Python
+      - Angular
+      - React
+      - REST APIs
+      - WebSockets
+
+    Testing and practices:
+      - Event-Driven Architecture
+      - Unit Testing (Jest)
+      - Kafka
+      - Microservices
+      - TDD
+      - Agile/Scrum
+      
+    soft_skills:
+      - Collaborative Problem Solving
+      - Cross-functional Collaboration
+      - Communication
+      - Technical Documentation
+
+  professional_experience:
+    - role: Software Engineer I
+      company: WEX
+      location: Remote — Portland, Maine, USA
+      period: "Feb 2023 - Present"
+      responsibilities:
+        - Increased Salesforce unit test coverage
+        - Implemented bots to speed up dependency update processes
+        - Implemented DataDog for monitoring and observability
+        - Implemented Artifactory for artifact management
+        - Created and maintained new microservices
+      stack:
+        - Node.js
+        - NestJS
+        - Salesforce
+        - DataDog
+        - MySQL
+        - TypeScript
+
+    - role: Full Stack Developer
+      company: Brastech Tecnologia
+      location: Belo Horizonte, Minas Gerais, Brazil
+      period: "Sep 2022 - Jan 2023"
+      responsibilities:
+        - Layout adjustments using Angular and Bootstrap
+        - Migration support from monolith to microservices
+        - Participation in agile ceremonies
+        - Training of new interns
+      stack:
+        - Angular
+        - Bootstrap
+        - TypeScript
+        - Java
+        - Spring Boot
+        - MySQL
+        - Docker
+
+    - role: Front-End Freelance Developer
+      company: Fábrica de Soluções em Software
+      location: Remote — Fortaleza, Ceará, Brazil
+      period: "Nov 2022 - Dec 2022"
+      responsibilities:
+        - Development of responsive screens using Angular and Bootstrap
+        - Agile-based workflow
+      stack:
+        - Angular
+        - Bootstrap
+
+  languages:
+    portuguese: Native
+    english: Proficient
