@@ -36,12 +36,12 @@ body {
     gap: 12px;
 }
 
-.avatar-placeholder {
+.avatar-image {
     width: 40px;
     height: 40px;
     border-radius: 999px;
-    background: #020617;
     border: 2px solid #4b5563;
+    object-fit: cover;
     overflow: hidden;
 }
 

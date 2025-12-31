@@ -3,18 +3,16 @@ resume:
     name: Itatiano Niquini
     location: Belo Horizonte, Minas Gerais, Brazil
     email: itaticontato@gmail.com
-    phone: "+553198230-0840"
+    phone: "+55 31 98230-0840"
     links:
       github: https://github.com/itatiN
       linkedin: https://linkedin.com/in/itatianofilho
 
   professional_summary: >
-    Software Engineer with over three years of professional experience and a
-    strong background in backend, cloud, and distributed systems. Experienced
-    in building scalable and reliable applications using Java (Spring Boot),
-    Node.js (NestJS), TypeScript, and modern cloud-native tooling. Comfortable
-    collaborating with cross-functional teams, producing technical
-    documentation, and integrating AI-powered solutions.
+    Software Engineer with 3+ years of experience specializing in backend development,
+    cloud-native architectures, and distributed systems, with solid full-stack capabilities.
+    Proven experience with Java (Spring Boot), Node.js (NestJS), TypeScript, modern cloud and
+    DevOps tooling, and AI-powered integrations.
 
   skills:
     ai_and_databases:
@@ -30,7 +28,7 @@ resume:
       - CI/CD (GitHub Actions)
       - AWS (ECS, S3, CloudWatch)
       - Azure Pipelines
-      - Obeservability (Datadog, Grafana)
+      - Observability (Datadog, Grafana)
 
     languages_and_frameworks:
       - Java (Spring Boot)
@@ -49,8 +47,8 @@ resume:
       - Kafka
       - Microservices
       - TDD
-      - Agile/Scrum
-      
+      - Agile / Scrum
+
     soft_skills:
       - Collaborative Problem Solving
       - Cross-functional Collaboration
@@ -63,28 +61,28 @@ resume:
       location: Remote — Portland, Maine, USA
       period: "Feb 2023 - Present"
       responsibilities:
-        - Increased Salesforce unit test coverage
-        - Implemented bots to speed up dependency update processes
-        - Implemented DataDog for monitoring and observability
-        - Implemented Artifactory for artifact management
-        - Created and maintained new microservices
+        - Increased Salesforce unit test coverage to ≥90%, ensuring stable, failure-free deployments with zero test-related issues.
+        - Reduced dependency update cycle from bimonthly to biweekly (2× faster) by implementing a GitHub bot.
+        - Implemented Datadog observability (APM, logs, metrics, dashboards, alerts) across multiple microservices.
+        - Integrated real-time error notifications via Google Chat, improving incident detection and response time.
+        - Implemented Artifactory for internal library management, improving standardization and reuse.
+        - Designed, developed, and maintained microservices, improving performance and enabling new system flows.
       stack:
         - Node.js
         - NestJS
         - Salesforce
-        - DataDog
+        - Datadog
         - MySQL
         - TypeScript
 
-    - role: Full Stack Developer
+    - role: Full Stack Developer Intern
       company: Brastech Tecnologia
       location: Belo Horizonte, Minas Gerais, Brazil
       period: "Sep 2022 - Jan 2023"
       responsibilities:
-        - Layout adjustments using Angular and Bootstrap
-        - Migration support from monolith to microservices
-        - Participation in agile ceremonies
-        - Training of new interns
+        - Implemented UI layout adjustments using Angular and Bootstrap, improving usability and visual consistency.
+        - Supported the migration from a monolithic architecture to microservices.
+        - Participated in Agile ceremonies and supported onboarding of new interns.
       stack:
         - Angular
         - Bootstrap
@@ -99,8 +97,8 @@ resume:
       location: Remote — Fortaleza, Ceará, Brazil
       period: "Nov 2022 - Dec 2022"
       responsibilities:
-        - Development of responsive screens using Angular and Bootstrap
-        - Agile-based workflow
+        - Developed responsive user interfaces using Angular and Bootstrap.
+        - Delivered features independently within an asynchronous, task-based workflow.
       stack:
         - Angular
         - Bootstrap

@@ -168,10 +168,10 @@ async function loadResume() {
             return `
                 <div class="experience-item">
                     <div class="experience-header">
-                        <h4>${exp.role || ''}</h4>
+                        <h4>${exp.role || ''} - ${exp.company || ''}</h4>
                         <span class="period">${exp.period || ''}</span>
                     </div>
-                    <div class="company-location">${exp.company || ''} — ${exp.location || ''}</div>
+                    <div class="company-location">${exp.location || ''}</div>
                     <ul>${responsibilities}</ul>
                     ${stack}
                 </div>
