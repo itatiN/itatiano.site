@@ -1,0 +1,40 @@
+# Apache configuration for clean URLs
+RewriteEngine On
+
+# Redirect index.html to root
+RewriteCond %{THE_REQUEST} /index\.html[\s?] [NC]
+RewriteRule ^ / [R=301,L]
+
+# Redirect resume.html to /resume
+RewriteCond %{THE_REQUEST} /resume\.html[\s?] [NC]
+RewriteRule ^ /resume [R=301,L]
+
+# Rewrite clean URLs to actual files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite /resume to resume.html
+RewriteRule ^resume$ resume.html [L]
+
+# Rewrite root to index.html
+RewriteRule ^$ index.html [L]
+
+# Set proper MIME types
+AddType text/yaml .yaml
+AddType text/yaml .yml
+AddType application/javascript .js
+
+# Enable compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Browser caching
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
