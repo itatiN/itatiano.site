@@ -622,10 +622,12 @@ body.fullscreen-mode .close-fullscreen {
 
 /* Home page specific styles */
 body.home-page {
-    display: flex;
-    flex-direction: column;
-    padding-top: 0;
-    padding-bottom: 0;
+    display: flex !important;
+    flex-direction: column !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    color: #e5e7eb;
+    min-height: 100vh !important;
 }
 
 .main-content {
