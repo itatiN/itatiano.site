@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Itatiano Niquini - Resume</title>
+    <title>Itatiano Niquini - Home</title>
 
     <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,94 +12,57 @@
     <!-- Ícones -->
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- js-yaml para ler resume.yaml -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
     
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <!-- Overlay preto clicável para sair do fullscreen -->
-    <div class="fullscreen-overlay" onclick="exitFullscreen()"></div>
-
+<body class="home-page">
     <!-- Cabeçalho do site -->
     <header class="site-header">
         <div class="header-left">
             <img src="assets/1668861930067.jpeg" alt="Avatar" class="avatar-image">
             <div>
-                <div class="site-name" id="site-name">Loading...</div>
-                <div class="site-role" id="site-role">Software Engineer</div>
+                <div class="site-name">Itatiano Niquini</div>
+                <div class="site-role">Software Engineer</div>
             </div>
         </div>
         <nav class="header-nav">
-            <a href="#" class="nav-link">
+            <a href="index.html" class="nav-link active">
                 <i class="fas fa-home"></i>
                 Home
             </a>
-            <a href="#" class="nav-link active">
+            <a href="resume.html" class="nav-link">
                 <i class="fas fa-file-alt"></i>
                 Resume
             </a>
         </nav>
     </header>
 
-    <div class="main-wrapper">
-        <!-- Página do currículo -->
-        <div class="resume-container" id="resume">
-            <div class="resume-content">
-                <div class="resume-header">
-                    <h1 id="resume-name">Loading...</h1>
-                    <div class="contact-info" id="contact-info"></div>
-                    <div class="social-links" id="social-links"></div>
-                </div>
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+        <h1 class="greeting">Hi! I'm Itatiano</h1>
+        <p class="subtitle">I am a software engineer</p>
+        <p class="availability">Open to: Full-time · Remote</p>
+        <a href="resume.html" class="cta-button">View Resume</a>
+    </main>
 
-                <div class="section-title">PROFESSIONAL SUMMARY</div>
-                <div class="section-content" id="professional-summary"></div>
-
-                <div class="section-title">SKILLS</div>
-                <div class="skills-grid" id="skills-grid"></div>
-
-                <div class="section-title">PROFESSIONAL EXPERIENCE</div>
-                <div id="experience-list"></div>
-
-                <div class="section-title">LANGUAGES</div>
-                <div class="languages-section" id="languages-section"></div>
+    <!-- Rodapé do site -->
+    <footer class="site-footer">
+        <nav class="footer-nav">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="resume.html" class="footer-link">Resume</a>
+        </nav>
+        <div class="footer-socials">
+            <span class="footer-socials-label">Socials</span>
+            <div class="social-icons">
+                <a href="#" class="social-link" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/itatiN" class="social-link" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
             </div>
         </div>
-
-        <!-- Rodapé do site -->
-        <footer class="site-footer">
-            <nav class="footer-nav">
-                <a href="#" class="footer-link">Home</a>
-                <a href="#" class="footer-link">Resume</a>
-            </nav>
-            <div class="footer-socials">
-                <span class="footer-socials-label">Socials</span>
-                <div class="social-icons">
-                    <a id="footer-linkedin" href="#" class="social-link" target="_blank" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a id="footer-github" href="#" class="social-link" target="_blank" title="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
-            </div>
-        </footer>
-    </div>
-
-    <!-- Botões flutuantes -->
-    <div class="action-buttons">
-        <button class="btn btn-download" onclick="downloadPDF()">Download</button>
-        <button class="btn btn-fullscreen" onclick="toggleFullscreen()">Fullscreen</button>
-    </div>
-
-    <!-- Botão para sair do fullscreen -->
-    <button class="close-fullscreen" onclick="exitFullscreen()">
-        <i class="fas fa-times"></i> Exit Fullscreen
-    </button>
-
-    <!-- JavaScript -->
-    <script src="script.js"></script>
+    </footer>
 </body>
 </html>
-
