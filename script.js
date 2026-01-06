@@ -81,7 +81,7 @@ function downloadPDF() {
 
 async function loadResume() {
     try {
-        const response = await fetch('resume.yaml');
+        const response = await fetch('/resume.yaml');
         if (!response.ok) {
             console.error('Error loading resume.yaml');
             return;
