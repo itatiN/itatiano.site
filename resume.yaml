@@ -59,7 +59,7 @@ resume:
     - role: Software Engineer I
       company: WEX
       location: Remote — Portland, Maine, USA
-      period: "Feb 2023 - Present"
+      period: "Feb 2023 - Jan 2026"
       responsibilities:
         - Increased Salesforce unit test coverage to ≥90%, ensuring stable, failure-free deployments with zero test-related issues.
         - Reduced dependency update cycle from bimonthly to biweekly (2× faster) by implementing a GitHub bot.
